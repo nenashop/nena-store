@@ -1,96 +1,130 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
+
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Nena Store</title>
 
 <style>
 body{
 font-family: Arial;
 background:#fff5fa;
+margin:0;
 }
 
-h1{
+header{
+background:#d86aa5;
+color:white;
 text-align:center;
-color:#d86aa5;
+padding:25px;
 }
 
 .products{
 display:flex;
 flex-wrap:wrap;
-gap:20px;
 justify-content:center;
+gap:20px;
+padding:20px;
 }
 
 .card{
 background:white;
 width:250px;
-padding:15px;
-text-align:center;
+padding:20px;
 border-radius:15px;
+text-align:center;
 box-shadow:0 0 10px #ddd;
-}
-
-.card img{
-width:100%;
-border-radius:10px;
 }
 
 button{
 background:#d86aa5;
 color:white;
 border:0;
-padding:10px;
-border-radius:15px;
+padding:12px 20px;
+border-radius:20px;
+font-size:16px;
+}
+
+a{
+text-decoration:none;
 }
 </style>
 
 </head>
 
+
 <body>
 
+
+<header>
+
 <h1>✨ Nena Store ✨</h1>
+
+<p>ملابس | اكسسوارات | كفرات | مكياج</p>
+
+</header>
+
+
 
 <div class="products">
 
 
+
 <div class="card">
+
 <h2>👗 ملابس</h2>
+
 <p>أحدث صيحات الموضة</p>
-<button>تسوقي الآن</button>
+
+<button>دخول</button>
+
 </div>
+
 
 
 <div class="card">
+
 <h2>👜 اكسسوارات</h2>
-<p>إكسسوارات جميلة</p>
-<button>تسوقي الآن</button>
+
+<p>إكسسوارات جميلة ومميزة</p>
+
+<button>دخول</button>
+
 </div>
+
 
 
 <div class="card">
 
 <h2>📱 كفرات</h2>
 
-<img src="IMG-20260731-WA0075.jpg">
+<a href="covers.html">
 
-<p>كفر وردي أنيق</p>
+<button>دخول للكفرات</button>
 
-<p>السعر: 600 ل.س</p>
-
-<button>أضف للسلة</button>
+</a>
 
 </div>
+
 
 
 <div class="card">
+
 <h2>💄 مكياج</h2>
-<p>منتجات تجميل</p>
-<button>تسوقي الآن</button>
+
+<p>منتجات تجميل رائعة</p>
+
+<button>دخول</button>
+
 </div>
 
 
+
 </div>
+
 
 </body>
+
 </html>
